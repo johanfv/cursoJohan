@@ -15,3 +15,12 @@ bool isEmployee = true;
 
 
 Console.WriteLine($" Nombre: {name}\n Edad:{age}\n Empleado: {isEmployee}\n Salario: {salary}\n Descuento {disccount}");
+//Mas tipos de variables
+
+DateTime date = DateTime.Now;
+char character = 'a'; //almacena un unico caracter Unicode
+byte myByte = 255; //almacena un valor entero sin signo pero solo de 8 bits
+short myShort = -587; // almacena un valor entero con signo y es de 64bits
+long myLong = 1313131332; //almacena un valor entero con signo de 64bits
+float myFloat = 3.141652f; //almacena un numero de punto flotante de presicion simple
+
