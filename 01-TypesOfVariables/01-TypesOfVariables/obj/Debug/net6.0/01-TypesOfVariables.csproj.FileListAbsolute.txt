@@ -1,0 +1,15 @@
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\bin\Debug\net6.0\01-TypesOfVariables.exe
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\bin\Debug\net6.0\01-TypesOfVariables.deps.json
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\bin\Debug\net6.0\01-TypesOfVariables.runtimeconfig.json
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\bin\Debug\net6.0\01-TypesOfVariables.dll
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\bin\Debug\net6.0\01-TypesOfVariables.pdb
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\01-TypesOfVariables.csproj.AssemblyReference.cache
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\01-TypesOfVariables.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\01-TypesOfVariables.AssemblyInfoInputs.cache
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\01-TypesOfVariables.AssemblyInfo.cs
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\01-TypesOfVariables.csproj.CoreCompileInputs.cache
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\01-TypesOfVariables.dll
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\refint\01-TypesOfVariables.dll
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\01-TypesOfVariables.pdb
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\01-TypesOfVariables.genruntimeconfig.cache
+C:\curso\cursoJohan\01-TypesOfVariables\01-TypesOfVariables\obj\Debug\net6.0\ref\01-TypesOfVariables.dll
