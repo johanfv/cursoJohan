@@ -5,7 +5,7 @@ int age = Convert.ToInt32(Console.ReadLine());
 
 person p1 = new person(name, age);
 
-p1.HelloPerson(age);
+p1.HelloPerson();
 
 
 public class person
@@ -19,10 +19,10 @@ public class person
         this.Age = age;
     }
 
-    public void HelloPerson(int age)
+    public void HelloPerson()
     {
         Console.WriteLine($"Nombre: {Name} Edad :{Age}");
-        this.isAdult(age);
+        this.isAdult(this.Age);
     }
 
     private void isAdult(int age)
