@@ -1,0 +1,1 @@
+Scaffold-DbContext "User Id=EJEMPLO_EF_CORE;PASSWORD=ESCAZU;Data Source=10.99.0.3:1521/DBDESA.cloud.grupocondal.oraclevcn.com;" Oracle.EntityFrameworkCore -outputDir Models

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\EjemploOracle.WebApi.props" />
+</Project>
