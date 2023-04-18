@@ -1,0 +1,9 @@
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.csproj.AssemblyReference.cache
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.AssemblyInfoInputs.cache
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.AssemblyInfo.cs
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.csproj.CoreCompileInputs.cache
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.MvcApplicationPartsAssemblyInfo.cs
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.MvcApplicationPartsAssemblyInfo.cache
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.RazorAssemblyInfo.cache
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Vistas\obj\Debug\net6.0\EjemploOracle.Vistas.RazorAssemblyInfo.cs

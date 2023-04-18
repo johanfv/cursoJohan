@@ -114,8 +114,6 @@ C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\EjemploO
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\EjemploOracle.WebApi.csproj.CoreCompileInputs.cache
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\EjemploOracle.WebApi.MvcApplicationPartsAssemblyInfo.cs
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\EjemploOracle.WebApi.MvcApplicationPartsAssemblyInfo.cache
-C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\EjemploOracle.WebApi.RazorAssemblyInfo.cache
-C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\EjemploOracle.WebApi.RazorAssemblyInfo.cs
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.EjemploOracle.WebApi.Microsoft.AspNetCore.StaticWebAssets.props
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.build.EjemploOracle.WebApi.props
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.EjemploOracle.WebApi.props
@@ -130,3 +128,4 @@ C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\refint\E
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\EjemploOracle.WebApi.pdb
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\EjemploOracle.WebApi.genruntimeconfig.cache
 C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\obj\Debug\net6.0\ref\EjemploOracle.WebApi.dll
+C:\curso\cursoJohan\EjemploOracle\EjemploOracle.WebApi\bin\Debug\net6.0\Newtonsoft.Json.dll
