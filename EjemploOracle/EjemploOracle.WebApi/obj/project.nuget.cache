@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "azfsr6t4hHb+hvR7bhTYMMuACE+/yoQPonEFGj2d/+gdhEwl6Tf1tUeHYsNC6GVg1XEt7cuBXUgMI9et2Nh64g==",
+  "dgSpecHash": "eWA1S8YSCu3AYNydFUYPb8O/XulwwysjsrgNd6lDyJ712zl/1bnpmQh/6fSnlJMEmFbCTq8mTFW8Cr6G6BXHLQ==",
   "success": true,
   "projectFilePath": "C:\\curso\\cursoJohan\\EjemploOracle\\EjemploOracle.WebApi\\EjemploOracle.WebApi.csproj",
   "expectedPackageFiles": [
@@ -24,7 +24,6 @@
     "C:\\Users\\jfonseca\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.4\\microsoft.netcore.platforms.5.0.4.nupkg.sha512",
     "C:\\Users\\jfonseca\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\jfonseca\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
-    "C:\\Users\\jfonseca\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\jfonseca\\.nuget\\packages\\oracle.entityframeworkcore\\6.21.4\\oracle.entityframeworkcore.6.21.4.nupkg.sha512",
     "C:\\Users\\jfonseca\\.nuget\\packages\\oracle.manageddataaccess.core\\3.21.41\\oracle.manageddataaccess.core.3.21.41.nupkg.sha512",
     "C:\\Users\\jfonseca\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

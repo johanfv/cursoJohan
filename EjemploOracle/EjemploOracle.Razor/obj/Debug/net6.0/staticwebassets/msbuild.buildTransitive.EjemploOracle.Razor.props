@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\EjemploOracle.Razor.props" />
+</Project>

@@ -11,7 +11,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploOracle.Services", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploOracle.DTO", "EjemploOracle.DTO\EjemploOracle.DTO.csproj", "{88C6FD4D-1BEE-4B23-9867-0176609EBB82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploOracle.Vistas", "EjemploOracle.Vistas\EjemploOracle.Vistas.csproj", "{ABFEE525-DC21-46D2-8AB5-C7FD4CCE2FFE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploOracle.Razor", "EjemploOracle.Razor\EjemploOracle.Razor.csproj", "{83A901DD-3D04-4029-8294-B2B58E1469A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,10 +35,10 @@ Global
 		{88C6FD4D-1BEE-4B23-9867-0176609EBB82}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88C6FD4D-1BEE-4B23-9867-0176609EBB82}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88C6FD4D-1BEE-4B23-9867-0176609EBB82}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABFEE525-DC21-46D2-8AB5-C7FD4CCE2FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABFEE525-DC21-46D2-8AB5-C7FD4CCE2FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABFEE525-DC21-46D2-8AB5-C7FD4CCE2FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABFEE525-DC21-46D2-8AB5-C7FD4CCE2FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83A901DD-3D04-4029-8294-B2B58E1469A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83A901DD-3D04-4029-8294-B2B58E1469A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83A901DD-3D04-4029-8294-B2B58E1469A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83A901DD-3D04-4029-8294-B2B58E1469A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

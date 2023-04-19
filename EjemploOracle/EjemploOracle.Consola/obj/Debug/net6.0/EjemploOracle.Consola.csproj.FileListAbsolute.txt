@@ -1,0 +1,5 @@
+C:\curso\EjemploOracle\EjemploOracle.Consola\obj\Debug\net6.0\EjemploOracle.Consola.csproj.AssemblyReference.cache
+C:\curso\EjemploOracle\EjemploOracle.Consola\obj\Debug\net6.0\EjemploOracle.Consola.GeneratedMSBuildEditorConfig.editorconfig
+C:\curso\EjemploOracle\EjemploOracle.Consola\obj\Debug\net6.0\EjemploOracle.Consola.AssemblyInfoInputs.cache
+C:\curso\EjemploOracle\EjemploOracle.Consola\obj\Debug\net6.0\EjemploOracle.Consola.AssemblyInfo.cs
+C:\curso\EjemploOracle\EjemploOracle.Consola\obj\Debug\net6.0\EjemploOracle.Consola.csproj.CoreCompileInputs.cache

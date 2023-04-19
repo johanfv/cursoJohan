@@ -1,6 +1,6 @@
 ﻿using EjemploOracle.DTO;
 using Microsoft.AspNetCore.Mvc;
-using Newtonsoft.Json;
+using System.Text.Json;
 
 namespace EjemploOracle.Vistas.Controllers
 {

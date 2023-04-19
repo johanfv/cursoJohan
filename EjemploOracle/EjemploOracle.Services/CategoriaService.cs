@@ -4,8 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Newtonsoft.Json;
-using System.Net.Http.Headers;
+using System.Threading.Tasks;
 
 namespace EjemploOracle.Services
 {
@@ -106,17 +105,14 @@ namespace EjemploOracle.Services
         public async Task<RespuestaService<List<Categorium>>> Listar()
         {
             var res = new RespuestaService<List<Categorium>>();
-             var lista = await _context.Categoria.ToListAsync();
+            var lista = await _context.Categoria.ToListAsync();
 
-             if (lista != null)
-                 res.Objeto = lista;
-             else
-                 res.AgregarInternalServerError("Se encontró un error");
+            if (lista != null)
+                res.Objeto = lista;
+            else
+                res.AgregarInternalServerError("Se encontró un error");
 
-             return res;
-
-
-
+            return res;
         }
     }
 }

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("EjemploOracle.Vistas")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("EjemploOracle.vistas")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("EjemploOracle.Vistas")]
-[assembly: System.Reflection.AssemblyTitleAttribute("EjemploOracle.Vistas")]
+[assembly: System.Reflection.AssemblyProductAttribute("EjemploOracle.vistas")]
+[assembly: System.Reflection.AssemblyTitleAttribute("EjemploOracle.vistas")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.

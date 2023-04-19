@@ -1,4 +1,19 @@
+using Microsoft.EntityFrameworkCore;
+using EjemploOracle.vistas.Models;
+
 var builder = WebApplication.CreateBuilder(args);
+// Add services to the container.
+
+var cadenaConexion = builder.Configuration.GetConnectionString("defaultConnection");
+
+builder.Services.AddDbContext<ModelContext>(x =>
+    x.UseOracle(
+        cadenaConexion,
+        options => options.UseOracleSQLCompatibility("11")
+    )
+);
+
+builder.Services.AddTransient<ICategoriaService, CategoriaService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

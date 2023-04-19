@@ -1,8 +1,32 @@
-﻿@{
+﻿@model List<CategoriaDTO>
+@{
     ViewData["Title"] = "Home Page";
+    Layout = "_Layout";
 }
 
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                id
+            </th>
+            <th>
+                nombre
+            </th>
+        </tr>
+    </thead>
+    @foreach(var item in Model){
+        <tr>
+            <td>@item.Id</td>
+            <td>@item.Nombre</td>
+        </tr>
+    }
+    <tbody>
+        <tr> </tr>
+    </tbody>
+</table>

@@ -1,4 +1,4 @@
-namespace EjemploOracle.Vistas.Models
+namespace EjemploOracle.vistas.Models
 {
     public class ErrorViewModel
     {
