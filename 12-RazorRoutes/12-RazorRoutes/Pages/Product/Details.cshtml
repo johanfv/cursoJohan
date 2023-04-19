@@ -1,0 +1,8 @@
+﻿@page
+@model _12_RazorRoutes.Pages.Product.DetaailsModel
+@{
+    var id = Request.Query["id"];
+    var categoria = Request.Query["category"];
+}
+<h1>Detalle del producto con id @id</h1>
+<h1> con la categoria @categoria</h1>

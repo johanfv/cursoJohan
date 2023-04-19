@@ -1,0 +1,34 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>Use this page to detail your site's privacy policy.</p>
+@{
+    var age = 17;
+    if(age >= 18)
+    {
+        <p>Mayor de edad</p>
+    }
+    else
+    {
+        <p>Menor de edad</p>
+    }
+}
+<br />
+@{
+    string[] countries = { "Guatemala", "El Salvador", "Honduras", "Nicaragua", "Costa Rica", "Panama" };
+
+}
+<ul>
+  @{
+    foreach (var item in countries)
+    {
+        <li>@item</li>
+    }
+    }
+
+</ul>
+
