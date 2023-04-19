@@ -1,0 +1,22 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="row g-3">
+    <div class="form-group row">
+        <div class="col-4">
+            <label asp-for="Movie.Id" class="form-label">ID</label>
+            <input asp-for="Movie.Id" type="text" class="form-control" disabled />
+        </div>       
+        <div class="col-4">
+            <label asp-for="Movie.Title" class="form-label">Titulo</label>
+            <input asp-for="Movie.Title" type="text" class="form-control" disabled />
+        </div>
+        <div class="col-4">
+            <label asp-for="Movie.Genre" class="form-label">Genero</label>
+            <input asp-for="Movie.Genre" type="text" class="form-control" disabled />
+        </div>
+    </div>
+</div>
