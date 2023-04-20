@@ -13,8 +13,6 @@ namespace EjemploOracle.Razor.Pages.Categoria
         {
             
         }
-
-        [HttpPost]
         public async Task OnPost() 
         {
             await InsertarCategoria(Request.Form["nombre"]);
@@ -35,7 +33,6 @@ namespace EjemploOracle.Razor.Pages.Categoria
                 var requestContent = new StringContent(categoria, Encoding.UTF8, "application/json");
                 var response = await httpClient.PostAsync(apiUrl, requestContent);
                 response.EnsureSuccessStatusCode();
-
             }
         }
     }
