@@ -1,0 +1,29 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4"> Clases para transferir datos</h1>
+</div>
+<br />
+
+<h2> calor de MyString @ViewData["MyString"]</h2>
+<br />
+<h2> calor de MyNumber @ViewData["MyNumber"]</h2>
+<br />
+<h2> calor de Message @Model.Message</h2>
+
+<form class="row g-3 mt-4" method="post">
+    <div class="form-group row">
+        <div class="col-12">
+            <label asp-for="Name" class="form-label">Nombre</label>
+            <input type="text" class="form-control" asp-for="Name" />
+        </div>
+    </div>
+    <div>
+        <button class="btn btn-secondary" type="submit">Procesar</button>
+    </div>
+
+</form>
