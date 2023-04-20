@@ -1,0 +1,47 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+<form class="row g-3 mt-4" method="post">
+    <div class="form-group row">
+        <div class="col-6">
+            <label asp-for="Name" class="form-label">Name</label>
+            <input type="text" class="form-control" asp-for="Name" />
+        </div><br />
+        <div class="col-6">
+            <label asp-for="Age" class="form-label">Edad</label>
+            <input type="number" class="form-control" asp-for="Age" />
+        </div>
+    </div>
+    <div>
+        <button class="btn btn-primary" type="submit">Procesar</button>
+    </div>
+</form>
+
+@if(Request.Method == "POST")
+{
+    if (Model.IsAdult)
+    {
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            <strong>@Model.Name eres Mayor de Edad</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>@Model.Name eres menor de edad</strong>
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    }
+}
+<script>
+    $('.alert').alert()
+</script>
