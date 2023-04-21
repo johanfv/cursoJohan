@@ -1,0 +1,35 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">jQuery-Razor-Pages</h1>
+
+</div>
+
+<form class="form-floating">
+    <div class="form-gruop row">
+        <div class="col-6">
+            <label asp-for="nombre" class="form-label">Nombre</label>
+            <input type="text" asp-for="nombre" class="form-control" />
+        </div>
+    </div>
+    <br />
+    <div>
+        <button class="btn btn-success" id="btnHello">Saludar</button>
+    </div>
+</form>
+
+@section Scripts{
+    <script>
+        $().ready(function(){
+            $("#btnHello").click(function (event) {
+                event.preventDefault();
+                let name = $("#nombre").val();
+                alert("Hola " + name);
+            });
+        });
+    </script>
+}
