@@ -1,0 +1,42 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Ejercicio con Ajax </h1>
+</div>
+<div class="row-cols-4">
+<div class="card">
+    <div class="card-body">
+        <h5 class="card-title" id="cardTitle"></h5>
+        <br />
+        <p class="card-text" id="result"></p>
+    </div>
+</div>
+    <button class="btn btn-success" id="btnData">Obtener datos</button>
+</div>
+@section Scripts{
+<script>
+        $(document).ready(function () {
+            $('#btnData').click(function () {
+                let uri = '@Url.Page("./Index")'
+                uri = uri + "?handler=Data"
+
+ 
+
+                $.ajax({
+                    url: uri,
+                    type: "GET"
+                }).done(function (response) {
+                    console.log(response);
+                    $('#cardTitle').text('Ejercicio Ajax');
+                    $('#result').text('Nombre: ' + response.name + ' Edad: ' + response.age);
+                }).fail(function (response) {
+                    alert(response.responseText);
+                });
+            });
+        });
+</script>
+}

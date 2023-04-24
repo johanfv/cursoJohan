@@ -29,6 +29,7 @@ namespace EjemploOracle.WebApi.Controllers
             else
                 return StatusCode(retorno.Status, retorno.Error);
         }
+       
 
         [HttpGet("{id}")]
         public async Task<ActionResult<CategoriaDTO>> BuscarPorId(decimal id)

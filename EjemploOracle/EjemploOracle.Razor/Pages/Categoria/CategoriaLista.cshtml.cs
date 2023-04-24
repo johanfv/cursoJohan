@@ -8,12 +8,12 @@ namespace EjemploOracle.Razor.Pages.Categoria
     
     public class CategoriaListaModel : PageModel
     {
-        public List<CategoriaDTO> liCategoria = new List<CategoriaDTO>();
+        public List<CategoriaDTO> liCategoria = new();
         public async Task OnGet()
         {
             var apiUrl = "https://localhost:7169/api/Categoria";
-            using (var httpClient = new HttpClient())
-            {
+            using HttpClient httpClient = new();
+            
                 var response = await httpClient.GetAsync(apiUrl);
                 if (response.IsSuccessStatusCode)
                 {
@@ -21,7 +21,11 @@ namespace EjemploOracle.Razor.Pages.Categoria
                     var data = JsonSerializer.Deserialize<List<CategoriaDTO>>(json);
                     liCategoria = data;
                 }
-            }
+            
+        }
+        public IActionResult OnPost()
+        {
+           return RedirectToPage("/Categoria/CategoriaUpdate");
         }
     }
 }

@@ -1,0 +1,20 @@
+﻿@page
+@model EjemploOracle.Razor.Pages.Categoria.CategoriaInsertModel
+@{
+}
+<form method="post">
+<div class="row g-3">
+    <div class="form-group row">
+        <div class="col-4">
+                <label asp-for="newCategoria.Nombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" asp-for="newCategoria.Nombre" />
+                <br />
+                <button type="submit" class="btn btn-primary">Insertar</button>
+                <a class="btn btn-danger" asp-area="" asp-page="/Categoria/CategoriaLista">Cancelar</a>
+                
+        </div>
+    </div>
+       
+</div>
+
+</form>

@@ -11,7 +11,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploOracle.Services", "E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploOracle.DTO", "EjemploOracle.DTO\EjemploOracle.DTO.csproj", "{88C6FD4D-1BEE-4B23-9867-0176609EBB82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploOracle.Razor", "EjemploOracle.Razor\EjemploOracle.Razor.csproj", "{83A901DD-3D04-4029-8294-B2B58E1469A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EjemploOracle.Razor", "EjemploOracle.Razor\EjemploOracle.Razor.csproj", "{83A901DD-3D04-4029-8294-B2B58E1469A2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{64674963-8A94-4BF3-ADF4-79725B719DD9} = {64674963-8A94-4BF3-ADF4-79725B719DD9}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

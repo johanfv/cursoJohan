@@ -1,0 +1,37 @@
+﻿@page
+@model EjemploOracle.Razor.Pages.Categoria.CategoriaUpdatesModel
+@{
+    if(Request.Method == "POST"){
+    if (@Model._valid)
+    {
+        <div class="alert alert-success" role="alert">
+           @Model.Message;
+        </div>
+    }
+    else
+    {
+        <div class="alert alert-warning" role="alert">
+            @Model.Message;
+        </div>
+    }
+    }
+}
+<h1>Modificar Categoria</h1>
+<div class="container">
+    <form method="post">
+        <input asp-for="_categoria.Id" type="hidden" class="form-control">
+        <fieldset disabled>
+            <div class="mb-3">
+                <label asp-for="_categoria.Id" class="form-label">ID de la categoria</label>
+                <input  type="text"  class="form-control" placeholder="@Model._categoria.Id">
+            </div>
+        </fieldset>
+            <div class="mb-3">
+                <label asp-for="_categoria.Nombre" class="form-label">Nombre de la categoria</label>
+                <input type="text" asp-for="_categoria.Nombre" class="form-control" placeholder="@Model._categoria.Nombre" />
+            </div>
+            <button type="submit" class="btn btn-primary">Modificar</button>
+            <a class="btn btn-danger" asp-page="/Categoria/CategoriaLista">Cancelar</a>
+    </form>
+</div>
+

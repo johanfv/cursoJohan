@@ -16,12 +16,36 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\curso\cursoJohan\EjemploOracle\EjemploOracle.Razor
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Categoria/Categoria.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Categoria/CategoriaDelete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYURlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Categoria/CategoriaInsert.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYUluc2VydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Categoria/CategoriaInsertar.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYUluc2VydGFyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Categoria/CategoriaLista.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYUxpc3RhLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Categoria/CategoriaUpdate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYVVwZGF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Categoria/CategoriaUpdatebak.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXENhdGVnb3JpYVVwZGF0ZWJhay5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Categoria/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2F0ZWdvcmlhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/curso/cursoJohan/EjemploOracle/EjemploOracle.Razor/Pages/Error.cshtml]

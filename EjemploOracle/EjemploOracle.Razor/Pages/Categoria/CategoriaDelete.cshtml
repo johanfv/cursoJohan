@@ -1,0 +1,60 @@
+﻿@page
+@model EjemploOracle.Razor.Pages.Categoria.CategoriaDeleteModel
+@{
+}
+<h1>Eliminar Categoria</h1>
+<div class="container">
+    <form method="post">
+        <input asp-for="_categoriaD.Id" type="hidden" class="form-control">
+        <fieldset disabled>
+            <div class="mb-3">
+                <label asp-for="_categoriaD.Id" class="form-label">ID de la categoria</label>
+                <input type="text" class="form-control" placeholder="@Model._categoriaD.Id">
+            </div>
+        
+        <div class="mb-3">
+            <label asp-for="_categoriaD.Nombre" class="form-label">Nombre de la categoria</label>
+            <input type="text" asp-for="_categoriaD.Nombre" class="form-control" placeholder="@Model._categoriaD.Nombre" />
+        </div>
+        </fieldset>
+        <div class="mt-1">
+        <button type="button" id="btnEliminar" class="btn btn-danger">Eliminar</button>
+        <a class="btn btn-default" asp-page="/Categoria/CategoriaLista">Cancelar</a>
+    </form>
+</div>
+@section Scripts{
+    <script>
+        $(function () {
+            //evento del botón borrar
+            $("#btnEliminar").click(function (event) {
+                event.preventDefault();
+                var url = '/Categoria/CategoriaDelete';
+                let id, nombre;
+                id = $("#_categoriaD.Id").val();
+                nombre = _$("#_categoriaD.Nombre").val();
+                var params = { _categoriaD.Id: id, _categoriaD.Nombre: nombre };
+                $.ajax({
+                    url: url,
+                    dataType: 'json',
+                    type: 'post',
+                    contentType: 'application/json',
+                    data: JSON.stringify(params),
+                    success: function (data, textStatus, jQxhr) {
+                        $(data).each(function () {
+                            var ciudadActual = this;
+                            var nuevaOpcion = "<option value='" + ciudadActual.id_Ciudad + "'>" + ciudadActual.Ciudad + "</option>"
+                            ddlcuidadesOrigen.append(nuevaOpcion);
+
+                        });
+                    },
+                    error: function (jQxhr, textStatus, errorThrown) {
+                        alert(errorThrown);
+                    },
+                });
+
+            });
+
+            
+        });
+    </script>
+}

@@ -1,0 +1,15 @@
+﻿@page
+@model EjemploOracle.Razor.Pages.Categoria.CategoriaModel
+
+<h1>
+    @Model.nombre
+</h1>
+
+<br />
+
+    @foreach ( var item in @Model.listaCategoria)
+    {
+     <h2>
+        @item.Nombre
+    </h2>
+    }
